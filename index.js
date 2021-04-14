@@ -58,7 +58,7 @@ class Database {
         console.log("FirstName: " + currentReservation.firstName);
         console.log("LastName: " + currentReservation.lastName);
         console.log("Passport Number: " + currentReservation.passport);
-        let next = rl.question('Press any key to continue...');
+        rl.keyIn('Press any key to continue...');
         taskSelection();
     }
     save() {
